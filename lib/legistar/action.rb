@@ -1,5 +1,5 @@
 module Legistar
-  class Actions
+  class Action
     include HTTParty
     base_uri 'https://webapi.legistar.com'
 

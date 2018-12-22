@@ -1,5 +1,5 @@
 module Legistar
-  class Bodies
+  class Body
     include HTTParty
     base_uri 'https://webapi.legistar.com'
 

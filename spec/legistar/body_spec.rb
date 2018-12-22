@@ -1,7 +1,7 @@
-RSpec.describe Legistar::Bodies do
-  describe "Bodies" do
+RSpec.describe Legistar::Body do
+  describe "Body" do
     before do
-      @bodies_client = Legistar::Bodies.new(host: "mesa")
+      @bodies_client = Legistar::Body.new(host: "mesa")
     end
 
     describe "#index" do

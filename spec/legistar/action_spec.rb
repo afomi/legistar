@@ -1,7 +1,7 @@
-RSpec.describe Legistar::Actions do
-  describe "Actions" do
+RSpec.describe Legistar::Action do
+  describe "Action" do
     before do
-      @actions_client = Legistar::Actions.new(host: "mesa")
+      @actions_client = Legistar::Action.new(host: "mesa")
     end
 
     describe "#index" do

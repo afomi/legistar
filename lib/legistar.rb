@@ -1,8 +1,10 @@
 require "httparty"
 require "legistar/version"
-require "legistar/actions"
-require "legistar/bodies"
-# require "pry" # Note: Helpful during development
+require "legistar/action"
+require "legistar/body"
+require "legistar/body_type"
+require "legistar/code_section"
+require "pry" # Note: Helpful during development
 
 module Legistar
   include HTTParty
@@ -14,12 +16,6 @@ module Legistar
     def initialize(host:)
       @host = host
     end
-  end
-
-  class BodyTypes
-  end
-
-  class CodeSections
   end
 
   class EventItems
