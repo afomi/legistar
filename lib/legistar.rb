@@ -8,7 +8,8 @@ require "legistar/event"
 require "legistar/event_item"
 require "legistar/index"
 require "legistar/person"
-require "pry" # Note: Helpful during development
+require "legistar/office_record"
+# require "pry" # Note: Helpful during development
 
 module Legistar
   include HTTParty
