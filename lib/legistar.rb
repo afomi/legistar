@@ -9,6 +9,7 @@ require "legistar/event_item"
 require "legistar/index"
 require "legistar/person"
 require "legistar/office_record"
+require "legistar/roll_call"
 # require "pry" # Note: Helpful during development
 
 module Legistar
