@@ -37,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Assumptions:
 
-* VERSION.rb has been updated
+* [VERSION.rb](/lib/legistar/version.rb) has been updated
 * User has access to Rubygems, if publishing.
 
 1. Run `gem build legistar.gemspec` to build `legistar-0.x.x.gem`
