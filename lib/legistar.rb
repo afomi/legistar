@@ -6,6 +6,8 @@ require "legistar/body_type"
 require "legistar/code_section"
 require "legistar/event"
 require "legistar/event_item"
+require "legistar/index"
+
 require "pry" # Note: Helpful during development
 
 module Legistar
@@ -18,9 +20,6 @@ module Legistar
     def initialize(host:)
       @host = host
     end
-  end
-
-  class Indexes
   end
 
   class MatterAttachments
