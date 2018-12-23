@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    legistar (0.0.1)
+    legistar (0.0.2)
       httparty
 
 GEM
