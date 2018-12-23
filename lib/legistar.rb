@@ -10,6 +10,8 @@ require "legistar/index"
 require "legistar/person"
 require "legistar/office_record"
 require "legistar/roll_call"
+require "legistar/vote_type"
+require "legistar/vote"
 # require "pry" # Note: Helpful during development
 
 module Legistar
