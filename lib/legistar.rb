@@ -7,7 +7,7 @@ require "legistar/code_section"
 require "legistar/event"
 require "legistar/event_item"
 require "legistar/index"
-
+require "legistar/person"
 require "pry" # Note: Helpful during development
 
 module Legistar
@@ -56,9 +56,6 @@ module Legistar
   end
 
   class OfficeRecords
-  end
-
-  class Persons
   end
 
   class RollCalls
